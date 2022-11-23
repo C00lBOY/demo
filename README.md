@@ -22,3 +22,8 @@ git remote -v  ---> it will show us the fetch and push branch. & This has been s
 1. git branch  ---> shows all available branches
 2. git branch "branch_name"  ---> this will create new branch with "branch_name" which is replica of main branch.
 3. git checkout "branch_name" ---> now i am working on developer branch ie."branch_name"
+4. NOTE: if you commit in developer branch the changes you do will not be visible in main branch, if you want to see all the changes you need to merge the developer branch to main branch using below commad.
+ first come to main branch then 
+ 5. git merge Developer_branch  
+   now the changes are visible from main branch
+   
