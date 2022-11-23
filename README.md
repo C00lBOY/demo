@@ -26,4 +26,14 @@ git remote -v  ---> it will show us the fetch and push branch. & This has been s
  first come to main branch then 
  5. git merge Developer_branch  
    now the changes are visible from main branch
-   
+6. git log ---> record of commits OR History of everything that happens to the repository
+   git log -p ---> detailed history of commits
+   press q for quit if you are stuck.
+7. git branch -d Developer1  ---> this will delete the Developer1 branch
+
+Now,
+Go the demo repository -- setting -- collaborator --add email
+1. after adding email that new developer can get invite , after accepting invite he/she can fork the repository and can able to make the commit and push the changes by creating pull request.
+2. This pull request will get to the base user after verifying the changes made by the developer the base user can merge that pull request.
+3. This is how team work is done swiftly.
+4. pull request ---> pull request is to get the latest version and merge into main repository(Production Environment)
