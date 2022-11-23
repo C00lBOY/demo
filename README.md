@@ -37,3 +37,4 @@ Go the demo repository -- setting -- collaborator --add email
 2. This pull request will get to the base user after verifying the changes made by the developer the base user can merge that pull request.
 3. This is how team work is done swiftly.
 4. pull request ---> pull request is to get the latest version and merge into main repository(Production Environment)
+5. fork is the replica of whole repository
